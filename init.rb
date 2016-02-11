@@ -1,4 +1,4 @@
 require 'url_encrypt'
-require 'activerecord'
+require 'active_record'
 
 ActiveRecord::Base.send(:include, UrlEncrypt)

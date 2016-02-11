@@ -2,7 +2,7 @@ require 'openssl'
 require 'uri'
 require 'base64'
 require 'rubygems'
-require 'activerecord'
+require 'active_record'
 
 module UrlEncrypt
   def self.cipher
